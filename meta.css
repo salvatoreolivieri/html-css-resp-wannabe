@@ -6,6 +6,47 @@
     margin: -10px;
   }
 
+  #lezioni,
+  #why{
+    background-color: #F2F2CD;
+    padding: 30px;
+  }
+
+  .container.grey{
+    padding: 30px;
+  }
+
+  .row{
+    margin-top: 0;
+    width: 100%;
+    padding-right: 20px;
+  }
+
+  #lezioni .row> .left, 
+  #lezioni .row> .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right
+  {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  hr{
+    width: 80%;
+  }
+
+}
+
+/* bonus schermo tablet */
+
+@media screen and (min-width:421px) and (max-width:990px) {
+
+  body{
+    overflow-x: hidden;
+    margin: -10px;
+  }
 
   #lezioni,
   #why{
@@ -34,4 +75,7 @@
     margin-bottom: 20px;
   }
 
+  hr{
+    width: 80%;
+  }
 }
