@@ -1,0 +1,30 @@
+
+@media screen and (max-width:420px) {
+
+  /* 1° sezione */
+
+  #lezioni{
+    background-color: #F2F2CD;
+    
+  }
+
+  .row{
+    margin-top: 0;
+    width: 100vw;
+    padding: 10px;
+  }
+
+  #lezioni .row>.left, 
+  #lezioni .row>.right{
+    float: none;
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+
+
+  /* 2° sezione */
+
+
+
+}
